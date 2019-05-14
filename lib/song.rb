@@ -65,4 +65,4 @@ end
     self.all << song.artist_name
     song 
   end 
- 
+end  
