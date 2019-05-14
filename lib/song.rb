@@ -56,7 +56,7 @@ class Song
   end 
 end
 
-def self.create_from_filename
+  def self.create_from_filename
   song_array = filename.split(" - ")
     song_array[1] = song_array[1].chomp(".mp3")
     song = self.new
@@ -64,4 +64,5 @@ def self.create_from_filename
     song.artist_name = song_array[0]
     self.all << song.artist_name
     song 
+  end 
 end 
